@@ -9,3 +9,5 @@ Chegou a hora de você construir um portfólio ainda mais rico e impressionar fu
 5. Compartilhe conosco o link desse repositório através do botão 'entregar projeto'
 
 ## Experiencia
+
+ Ao inserir um input ele retornou oque foi pedido, tendo a experiencia necessária é possivel utimizar o trabalho, usando a ia para gerar o codigo e só conferindo se há algum erro, mas claro, fazendo uso de uma boa engenharia de prompt, uma entrada mal elaborada resultará numa saida insatisfatória
