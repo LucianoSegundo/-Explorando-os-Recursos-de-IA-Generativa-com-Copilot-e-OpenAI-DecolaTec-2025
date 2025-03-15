@@ -1,0 +1,60 @@
+Criar uma API em Python e consumi-la em um arquivo HTML pode ser um processo interessante e didático. Aqui está um guia básico para você começar:
+
+### **1. Criando a API com Python**
+Para isso, você pode usar o framework Flask, que é leve e fácil de usar.
+
+- Instale o Flask:
+  ```bash
+  pip install flask
+  ```
+
+- Exemplo de código para sua API:
+  ```python
+  from flask import Flask, jsonify
+
+  app = Flask(__name__)
+
+  @app.route('/api/dados', methods=['GET'])
+  def get_dados():
+      dados = {"mensagem": "Olá, mundo!", "status": "sucesso"}
+      return jsonify(dados)
+
+  if __name__ == '__main__':
+      app.run(debug=True)
+  ```
+
+  Esse código cria uma API simples que retorna um JSON com uma mensagem.
+
+### **2. Consumindo a API em um arquivo HTML**
+Você pode usar JavaScript (com Fetch API) para consumir os dados da sua API.
+
+- Exemplo de código HTML:
+  ```html
+  <!DOCTYPE html>
+  <html lang="pt-BR">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Consumir API</title>
+  </head>
+  <body>
+      <h1>Dados da API:</h1>
+      <div id="resultado"></div>
+      <script>
+          fetch('http://127.0.0.1:5000/api/dados')
+              .then(response => response.json())
+              .then(data => {
+                  document.getElementById('resultado').textContent = 
+                      `Mensagem: ${data.mensagem}, Status: ${data.status}`;
+              })
+              .catch(error => console.error('Erro ao consumir a API:', error));
+      </script>
+  </body>
+  </html>
+  ```
+
+### **3. Como executar**
+- Salve o código da API Python, execute-o no terminal, e certifique-se de que o servidor Flask está rodando.
+- Abra o arquivo HTML em um navegador. Ele fará uma requisição à API local e exibirá os dados.
+
+Se precisar de ajuda para personalizar sua API ou para entender melhor alguma parte do processo, estou aqui! 🚀

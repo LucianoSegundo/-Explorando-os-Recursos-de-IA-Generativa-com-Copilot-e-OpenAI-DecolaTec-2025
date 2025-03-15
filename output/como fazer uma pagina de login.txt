@@ -1,0 +1,103 @@
+
+Criar uma página de login pode ser simples ou sofisticado, dependendo de suas necessidades. Aqui está um guia básico para criar uma página de login com HTML, CSS e JavaScript:
+
+### 1. Estrutura básica com HTML
+Crie um arquivo HTML (`login.html`):
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+### 2. Estilizando a página com CSS
+Crie um arquivo CSS (`styles.css`) para melhorar o visual:
+```css
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+```
+
+### 3. Validação com JavaScript
+Adicione funcionalidade com um arquivo JavaScript (`script.js`):
+```javascript
+document.getElementById("loginForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+
+    if (username === "admin" && password === "12345") {
+        alert("Login bem-sucedido!");
+    } else {
+        alert("Usuário ou senha incorretos.");
+    }
+});
+```
+
+Essa é uma página de login funcional que você pode personalizar de acordo com suas necessidades. Para segurança em projetos reais, lembre-se de implementar validações no lado do servidor e usar criptografia para proteger dados sensíveis. O que você acha?

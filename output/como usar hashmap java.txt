@@ -1,0 +1,45 @@
+O HashMap em Java é uma classe da coleção java.util que implementa a interface Map. Ele é amplamente utilizado para armazenar pares chave-valor, onde cada chave está associada a um valor. Abaixo está um guia básico de como usá-lo:
+
+Importar a classe HashMap: Antes de usar, importe a classe:
+
+java
+import java.util.HashMap;
+Criar um HashMap: Você pode criar um HashMap especificando os tipos de chave e valor:
+
+java
+HashMap<String, Integer> map = new HashMap<>();
+Adicionar elementos (pares chave-valor): Use o método put para adicionar elementos:
+
+java
+map.put("Maçã", 5);
+map.put("Banana", 3);
+map.put("Laranja", 7);
+Acessar valores: Use o método get para acessar o valor associado a uma chave:
+
+java
+int quantidade = map.get("Banana");
+System.out.println("Quantidade de bananas: " + quantidade);
+Verificar se contém uma chave ou valor: Use os métodos containsKey e containsValue:
+
+java
+if (map.containsKey("Maçã")) {
+    System.out.println("O mapa contém maçã!");
+}
+Remover elementos: Para remover um par chave-valor, use o método remove:
+
+java
+map.remove("Laranja");
+Iterar pelos elementos: Você pode usar um for para iterar pelas chaves ou pelos pares chave-valor:
+
+java
+for (String chave : map.keySet()) {
+    System.out.println("Chave: " + chave + ", Valor: " + map.get(chave));
+}
+Obter o tamanho do HashMap: Para saber quantos pares chave-valor existem:
+
+java
+int tamanho = map.size();
+System.out.println("Tamanho do mapa: " + tamanho);
+O HashMap é uma ferramenta poderosa, especialmente quando você precisa de uma pesquisa rápida baseada em chaves. Se você tiver dúvidas ou precisar de mais detalhes, é só me avisar! 😊
+
+Como o HashMap se compara a outras implementações de Map?Quais são alguns casos de uso comuns do HashMap?Quais são as melhores práticas ao usar HashMaps em Java?
