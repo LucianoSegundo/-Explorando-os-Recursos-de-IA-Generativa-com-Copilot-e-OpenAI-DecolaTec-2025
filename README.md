@@ -11,3 +11,17 @@ Chegou a hora de você construir um portfólio ainda mais rico e impressionar fu
 ## Experiencia
 
  Ao inserir um input ele retornou oque foi pedido, tendo a experiencia necessária é possivel utimizar o trabalho, usando a ia para gerar o codigo e só conferindo se há algum erro, mas claro, fazendo uso de uma boa engenharia de prompt, uma entrada mal elaborada resultará numa saida insatisfatória
+
+ ## Imagens solicitadas
+ ### como usar hashmap java
+ 
+  ![como usar hashmap java](input/como usar hashmap java.png)
+  
+  ### como fazer uma pagina de login
+  
+  ![como fazer uma pagina de login](input/como fazer uma pagina de login.png)
+  
+  ### como fazer uma api pyton e consumin ela num html
+  
+  ![como fazer uma api pyton e consumin ela num html](input/como fazer uma api pyton e consumin ela num html.png)
+
