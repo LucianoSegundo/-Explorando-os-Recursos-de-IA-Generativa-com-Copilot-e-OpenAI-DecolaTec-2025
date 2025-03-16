@@ -15,13 +15,12 @@ Chegou a hora de você construir um portfólio ainda mais rico e impressionar fu
  ## Imagens solicitadas
  ### como usar hashmap java
  
-  ![como usar hashmap java](input/como usar hashmap java.png)
+  ![como usar hashmap java](https://github.com/LucianoSegundo/-Explorando-os-Recursos-de-IA-Generativa-com-Copilot-e-OpenAI-DecolaTec-2025/blob/main/input/como%20usar%20hashmap%20java.png)
   
   ### como fazer uma pagina de login
   
-  ![como fazer uma pagina de login](input/como fazer uma pagina de login.png)
+  ![como fazer uma pagina de login](https://github.com/LucianoSegundo/-Explorando-os-Recursos-de-IA-Generativa-com-Copilot-e-OpenAI-DecolaTec-2025/blob/main/input/como%20fazer%20uma%20pagina%20de%20login.png)
   
   ### como fazer uma api pyton e consumin ela num html
   
-  ![como fazer uma api pyton e consumin ela num html](input/como fazer uma api pyton e consumin ela num html.png)
-
+  ![como fazer uma api pyton e consumin ela num html](https://github.com/LucianoSegundo/-Explorando-os-Recursos-de-IA-Generativa-com-Copilot-e-OpenAI-DecolaTec-2025/blob/main/input/como%20fazer%20uma%20api%20pyton%20e%20consumin%20ela%20num%20html.png)
